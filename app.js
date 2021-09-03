@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded',()=>{
     const gameDisplay=document.querySelector('.game-container');
     const startBox=document.createElement('div');
