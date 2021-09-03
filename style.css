@@ -1,0 +1,109 @@
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.start-box, .reload-box{
+    width: 450px;
+    height: 150px;
+    background-color: teal;
+    position: absolute;
+    z-index: +3;
+    top:150px;
+    left: 10px;
+    border: 10px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.start-box, .action-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.play-btn{
+font-size: 25px;
+font-weight: 800;
+color: white;
+background-color: teal;
+border: 3px solid white;
+cursor: pointer;
+border-radius: 5px;
+}
+.score{
+    color: white;
+    font-size: 25px;
+font-weight: 800;
+}
+.border-left{
+    width: 80px;
+    height: 800px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 520px;
+    top: 0px;
+    z-index: +2;
+}
+.border-right{
+    width: 80px;
+    height: 800px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 1080px;
+    top:0px;
+    z-index: +2;
+}
+.border-top{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: -50px;
+    z-index: +2;
+}
+.game-container{
+    width: 500px;
+    height: 730px;
+    position: absolute;
+}
+.point{
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(204, 7, 7);
+    left: 400px;
+    background-color: yellow;
+    padding: 5px 10px;
+}
+.sky{
+    background-color: rgb(62, 197, 250);
+    width: 500px;
+    height: 580px;
+    position: absolute;
+}
+.ground{
+    background-color: rgb(248, 212, 133);
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 580px;
+    z-index: +1;
+}
+.bird{
+    background: url(./flappy-bird.png);
+    width: 60px;
+    height: 40px;
+    position: absolute;
+}
+.obstacles{
+    width: 60px;
+    height: 300px;
+    background-image: url(./flappybird-pipe.png);
+    position: absolute;
+}
+.top-obstacles{
+    width: 60px;
+    height: 300px;
+    transform: rotate(180deg);
+    background-image: url(./flappybird-pipe.png);
+    position: absolute;
+}
